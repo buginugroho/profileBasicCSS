@@ -1,0 +1,55 @@
+/*****TAG SELECTOR*****/
+b{
+  color: #f5a307;
+  font-family: "Cambria";
+  font-size: 23px;
+}
+
+body{
+  background-color: #f6eec7;
+  color: #2b580c;
+  font-family: "Arial";
+  font-size: 20px;
+}
+
+h1{
+  color: #527318 ;
+  font-family:"Lucida Calligraphy";
+}
+
+hr{
+  border-style: none;
+  border-top-style: dashed;
+  border-width: 5px;
+  border-color: #527318;
+  width: 90%;
+}
+
+/*****CLASS SELECTOR*****/
+.pendidikan {
+  background-color: #bae6da;
+  border: solid;
+  border-color: #95e6a5;
+  color: #066922;
+  font-family: "Bell MT", serif;
+  font-size: 20px;
+}
+
+.matakuliah{
+  background-color: #bad2e6;
+  border: solid;
+  border-color: #95c1e6;
+  color: #066969;
+  font-family : "Times New Roman", serif;
+  font-size: 20px;
+}
+
+/*****ID SELECTOR*****/
+#organisasi{
+  background-color: #d7e6ba;
+  border: solid;
+  border-color: #b7d184;
+  color: #066922;
+  font-family: "Constantia", serif;
+  font-size: 20px;
+}

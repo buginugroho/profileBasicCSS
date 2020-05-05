@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hubungi Bugi</title>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<center>
+			<a href="index.html"><b>Beranda</b></a>
+			<a href="hubungi-saya.html"><b>Hubungi Saya</b></a><br>
+		</center>
+		<h1>Hubungi Saya</h1>
+		<p>Email: buginugroho@gmail.com</p>
+		<p>Nomor: 0812 0812 0812</p>
+		<form action="mailto:buginfurnus19@gmail.com" method="post" enctype="text/plain">
+			<table>
+				<tr>
+					<td><label>Nama Anda: </label></td>
+					<td><input type="text" name="namaAnda" value="" required="true"></td>
+				</tr>
+				<tr>
+					<td><label>Email Anda: </label></td>
+					<td><input type="email" name="emailAnda" value="" required="true"></td>
+				</tr>
+				<tr>
+					<td><label>Nomor telepon: </label></td>
+					<td><input type="tel" name="nomorAnda" value="" minlength="8" required="true"></td>
+				</tr>
+				<tr>
+					<td><label>Pesan: </label></td>
+					<td><textarea name="pesanAnda" rows="5" cols="30" required="true"></textarea></td>
+				</tr>
+			</table>
+			<input type="submit" value="Kirim Pesan">
+		</form>
+		<br>
+	</body>
+</html>
